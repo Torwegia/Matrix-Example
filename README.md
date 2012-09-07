@@ -15,6 +15,7 @@ To build this example just
 >$ make
 
 The excutable will be put in bin
+--------------------------------
 
 *Mac OS X requires some changing of the headers*
 
