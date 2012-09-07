@@ -17,5 +17,7 @@ To build this example just
 The excutable will be put in bin
 
 *Mac OS X requires some changing of the headers*
+
 *Also std::chrono may or may not work on OS X*
+
 *Should that be the case use gettimeofday*
