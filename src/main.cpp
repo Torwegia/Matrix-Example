@@ -142,7 +142,7 @@ void update()
     static float angle = 0.0;
     float dt = getDT();// if you have anything moving, use dt.
 
-    angle += dt; //move through 90 degrees a second
+    angle += dt * M_PI/2; //move through 90 degrees a second
     model = glm::translate( glm::mat4(1.0f), glm::vec3(4.0 * sin(angle), 0.0, 4.0 * cos(angle)));
     // Update the state of the scene
     glutPostRedisplay();//call the display callback
