@@ -1,12 +1,13 @@
 # Linux
-CC=g++
+#CC=g++
+#LIBS= -lglut -lGLEW -lGL
 
 # For Macs uncomment the next line and comment out the previous one
-#CC=clang++
+CC=clang++
+LIBS=  -framework OpenGL -framework GLUT -framework Cocoa -lGLEW -stdlib=libc++
 # Assuming you want to use a recent compiler
 
 # Compiler flags
-LIBS= -lglut -lGLEW -lGL
 CXXFLAGS= -g -Wall -std=c++0x
 
 all: ../bin/Matrix
