@@ -9,18 +9,19 @@ Building This Example
 
 >$ sudo apt-get install libglm-dev
 
+*On a Mac you can install GLM with this command(using homebrew)*
+>$ brew install glm
+
 To build this example just 
 
 >$ cd build
 >$ make
 
+*If you are using a Mac you will need to edit the makefile in the build directory*
+
 The excutable will be put in bin
 
-Mac OS X Things
----------------
+Additional Notes For OSX Users
+------------------------------
 
-*Mac OS X requires some changing of the headers*
-
-*Also std::chrono may or may not work on OS X*
-
-*Should that be the case use gettimeofday*
+Ensure that the latest version of the Developer Tools is installed.
